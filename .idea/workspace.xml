@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="419ae0ac-ab38-4459-bea3-be039127f67d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson2/persons/Policemen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson2/vehicals/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson2/vehicals/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson2/vehicals/Tesla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson3/associations/BortComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson3/associations/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson3/associations/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson3/associations/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson3/associations/Passenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson3/encapsulation/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson3/encapsulation/DeoMatiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson3/encapsulation/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson3/encapsulation/Policeman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson3/encapsulation/Tesla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson3/solid/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson4/inheritance/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson4/inheritance/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson4/inheritance/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson4/inheritance/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson4/inheritance/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson4/inheritance/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson4/inheritance/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson4/objectmethods/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson4/objectmethods/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson4/objectmethods/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson4/objectmethods/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson4/objectmethods/TestHash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson5/abstraction/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson5/abstraction/Deo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson5/abstraction/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson5/abstraction/Tesla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson5/interfaces/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson5/interfaces/Tesla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson5/interfaces/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson5/overloading/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson5/overloading/Tesla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson5/polimorfism/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson5/polimorfism/DBDataService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson5/polimorfism/DataService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson5/polimorfism/DeoMatiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson5/polimorfism/InMemoryDataService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson5/polimorfism/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson5/polimorfism/Policeman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson5/polimorfism/Tesla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson5/polimorfism/Toyota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson6/heap/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson6/stckoverflow/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson7/ImmutableObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson7/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson8/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson8/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson8/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson8/CommonI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson8/CommonImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson8/FinallyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson8/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson8/OwnException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson9/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson9/Test.txt " afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson9/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example/lesson9/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/hom1/HomeWorkApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/hom2/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/hom2/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/hom2/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/hom2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/hom2/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/hom3/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/hom3/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/hom3/GeometricShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/hom3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/hom3/Obstacle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/hom3/Participant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/hom3/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/hom3/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/hom3/RunningTrack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/hom3/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/hom3/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/hom3/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/hom3/Wall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/hom4/HangmanGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/hom4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/hom4/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/hom4/SymbolUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/hom4/WordUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/hom5/ArrayValueCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/hom6/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/hom6/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/hom6/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/hom6/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/hom6/Orange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/hom7/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/hom7/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/hom7/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/hom7/SameName.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2V7561UskNYkvhaE60fTLOXX79P" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "onboarding.tips.debug.path": "/Users/marynachubenko/IdeaProjects/NewProject/src/Main.java"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="419ae0ac-ab38-4459-bea3-be039127f67d" name="Changes" comment="" />
+      <created>1694174099118</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694174099118</updated>
+    </task>
+    <servers />
+  </component>
+</project>
