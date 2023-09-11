@@ -3,11 +3,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>mathlibrary-project</artifactId>
+    <artifactId>NewProject</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
 
-    <name>mathlibrary</name>
+    <name>NewProject</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -25,20 +24,26 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>org.example.mathlibrary.MathProblems</mainClass>
+                            <!-- Укажите здесь полное имя вашего основного класса -->
+                            <mainClass>hom10_maven.MathProblems</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
             </plugin>
         </plugins>
     </build>
-
     <dependencies>
         <dependency>
             <groupId>org.example</groupId>
-            <artifactId>Hillel_Library</artifactId>
+            <artifactId>mathlibrary-project</artifactId>
             <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
         </dependency>
     </dependencies>
+
+    <repositories>
+        <repository>
+            <id>central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+    </repositories>
 </project>
