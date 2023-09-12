@@ -4,115 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="419ae0ac-ab38-4459-bea3-be039127f67d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson2/persons/Policemen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson2/vehicals/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson2/vehicals/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson2/vehicals/Tesla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson3/associations/BortComputer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson3/associations/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson3/associations/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson3/associations/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson3/associations/Passenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson3/encapsulation/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson3/encapsulation/DeoMatiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson3/encapsulation/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson3/encapsulation/Policeman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson3/encapsulation/Tesla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson3/solid/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson4/inheritance/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson4/inheritance/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson4/inheritance/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson4/inheritance/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson4/inheritance/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson4/inheritance/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson4/inheritance/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson4/objectmethods/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson4/objectmethods/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson4/objectmethods/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson4/objectmethods/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson4/objectmethods/TestHash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson5/abstraction/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson5/abstraction/Deo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson5/abstraction/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson5/abstraction/Tesla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson5/interfaces/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson5/interfaces/Tesla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson5/interfaces/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson5/overloading/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson5/overloading/Tesla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson5/polimorfism/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson5/polimorfism/DBDataService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson5/polimorfism/DataService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson5/polimorfism/DeoMatiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson5/polimorfism/InMemoryDataService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson5/polimorfism/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson5/polimorfism/Policeman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson5/polimorfism/Tesla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson5/polimorfism/Toyota.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson6/heap/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson6/stckoverflow/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson7/ImmutableObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson7/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson8/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson8/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson8/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson8/CommonI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson8/CommonImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson8/FinallyDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson8/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson8/OwnException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson9/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson9/Test.txt " afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson9/file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example/lesson9/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/hom1/HomeWorkApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/hom2/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/hom2/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/hom2/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/hom2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/hom2/Robot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/hom3/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/hom3/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/hom3/GeometricShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/hom3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/hom3/Obstacle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/hom3/Participant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/hom3/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/hom3/Robot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/hom3/RunningTrack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/hom3/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/hom3/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/hom3/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/hom3/Wall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/hom4/HangmanGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/hom4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/hom4/StringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/hom4/SymbolUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/hom4/WordUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/hom5/ArrayValueCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/hom6/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/hom6/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/hom6/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/hom6/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/hom6/Orange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/hom7/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/hom7/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/hom7/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/hom7/SameName.java" afterDir="false" />
+    <list default="true" id="419ae0ac-ab38-4459-bea3-be039127f67d" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/src/example/lesson10/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NewProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hom10_maven/MathProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hom10_maven/MathProblems.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -124,7 +32,38 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="5f87fa50-ed10-4a68-9ab8-b270bf82c724" />
+        <option name="url" value="https://github.com/Maryna1996/NewProject.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2V7561UskNYkvhaE60fTLOXX79P" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -132,13 +71,102 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "onboarding.tips.debug.path": "/Users/marynachubenko/IdeaProjects/NewProject/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/marynachubenko/IdeaProjects/NewProject&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/marynachubenko/IdeaProjects/NewProject/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="hom10_maven" />
+      <recent name="mathlibrary-project" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/homework" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.hom10_maven.MathProblems">
+    <configuration name="MathProblems" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="MathProblems" />
+      <module name="mathlibrary-project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hom10_maven.MathProblems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-20" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="hom10_maven.MathProblems" />
+      <module name="NewProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hom10_maven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mathlibrary-project-1.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/mathlibrary-project-1.0-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="NewProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="NewProject" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mathlibrary-project [jar:jar]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="jar:jar" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.mathlibrary-project [jar:jar]" />
+        <item itemvalue="Application.hom10_maven.MathProblems" />
+        <item itemvalue="JAR Application.mathlibrary-project-1.0-SNAPSHOT.jar" />
+        <item itemvalue="Application.MathProblems" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -148,6 +176,35 @@
       <option name="presentableId" value="Default" />
       <updated>1694174099118</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1694423518109</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694423518109</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/NewProject$hom10_maven_MathProblems.ic" NAME="hom10_maven.MathProblems Coverage Results" MODIFIED="1694420622497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>hom10_maven.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/NewProject$mathlibrary_project_1_0_SNAPSHOT_jar.ic" NAME="mathlibrary-project-1.0-SNAPSHOT.jar Coverage Results" MODIFIED="1694429655594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
