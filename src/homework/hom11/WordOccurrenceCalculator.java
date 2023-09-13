@@ -17,7 +17,7 @@ public class WordOccurrenceCalculator {
     }
 
     public static void main(String[] args) {
-        List<String> wordList = List.of("bird", "fox", "bird", "cat", "bird", "fox", "dog", "cat");
+        List<String> wordList = List.of("bird", "fox", "bird", "cat", "bird", "fox", "dog", "cat", "bird", "fox", "bird", "cat", "bird", "fox", "dog", "cat" , "cow", "puppy", "tiger", "panda");
         calcOccurrence(wordList);
     }
 }

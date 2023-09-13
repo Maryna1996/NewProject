@@ -14,7 +14,7 @@ public class StringOccurrenceCounter {
     }
 
     public static void main(String[] args) {
-        List<String> stringList = List.of("apple", "banana", "apple", "cherry", "apple", "date");
+        List<String> stringList = List.of("apple", "banana", "apple", "cherry", "apple", "date","banana", "apple", "cherry", "apple" , "orange" ,"banana", "apple", "cherry", "apple", "banana", "apple", "cherry", "apple" , "cherry" , "cherry");
         String target = "apple";
         int occurrenceCount = countOccurrence(stringList, target);
         System.out.println("The number of occurrences of the string '" + target + "': " + occurrenceCount);

@@ -24,7 +24,7 @@ public class WordOccurrenceFinder {
     }
 
     public static void main(String[] args) {
-        List<String> wordList = List.of("bird", "fox", "bird", "cat", "bird", "fox", "dog", "cat");
+        List<String> wordList = List.of("bird", "fox", "bird", "cat", "bird", "fox", "dog", "cat" , "leo" , "tiger" ,"fox", "dog", "octopus" , "snake"  , "fox" , "snake" , "shark" , "hippo" , "duck" ,"panda" );
         List<Map<String, Object>> occurrenceList = findOccurrence(wordList);
 
         for (Map<String, Object> occurrence : occurrenceList) {
