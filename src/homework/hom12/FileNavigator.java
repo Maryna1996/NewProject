@@ -5,6 +5,7 @@ import java.util.Map;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Collections;
+import java.io.File;
 
 public class FileNavigator {
     private Map<String, List<FileData>> fileMap;
@@ -62,10 +63,7 @@ public class FileNavigator {
 
     // Internal method to get the parent path
     private String getParentPath(String path) {
-        int lastSlashIndex = path.lastIndexOf('/');
-        if (lastSlashIndex >= 0) {
-            return path.substring(0, lastSlashIndex);
-        }
-        return "/";
+        File file = new File(path);
+        return file.getParent();
     }
 }
