@@ -1,4 +1,3 @@
-
 package homework.hom13;
 
 import java.time.LocalDate;
@@ -69,4 +68,3 @@ class Product {
                 '}';
     }
 }
-
