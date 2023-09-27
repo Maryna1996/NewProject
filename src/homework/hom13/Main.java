@@ -1,4 +1,3 @@
-
 package homework.hom13;
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -43,6 +42,3 @@ public class Main {
         System.out.println("Grouped Products: " + groupedProducts);
     }
 }
-
-
-
