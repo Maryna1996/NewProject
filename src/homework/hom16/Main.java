@@ -1,12 +1,13 @@
 package homework.hom16;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class Main {
     public static void main(String[] args) {
         // Create a PetrolStation object with an initial amount of fuel of 1000
         PetrolStation petrolStation = new PetrolStation(1000);
 
-        // Create a list to store refueling requests
-        ThreadSafeList<Integer> refuelRequests = new ThreadSafeList<>();
+        ExecutorService executor = Executors.newFixedThreadPool(3);
 
         // Create three threads that try to refuel cars
         Thread car1 = new Thread(() -> {
