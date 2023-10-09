@@ -3,7 +3,7 @@ package homework.hom16;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class PetrolStation {
-    private int amount;
+    private volatile int amount;
     private final ReentrantLock lock = new ReentrantLock();
 
     public PetrolStation(int initialAmount) {
