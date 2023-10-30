@@ -1,48 +1,47 @@
 package homework.hom20.Builder;
 
-public class CarBuilderImpl implements CarBuilder {
+public class CarBuilderImpl {
     private Car car;
 
     public CarBuilderImpl() {
         car = new Car("", "", 0, "");
     }
 
-    @Override
-    public void buildMake(String make) {
+    public CarBuilderImpl buildMake(String make) {
         car.setMake(make);
+        return this;
     }
 
-    @Override
-    public void buildModel(String model) {
+    public CarBuilderImpl buildModel(String model) {
         car.setModel(model);
+        return this;
     }
 
-    @Override
-    public void buildYear(int year) {
+    public CarBuilderImpl buildYear(int year) {
         car.setYear(year);
+        return this;
     }
 
-    @Override
-    public void buildColor(String color) {
+    public CarBuilderImpl buildColor(String color) {
         car.setColor(color);
+        return this;
     }
 
-    @Override
-    public void buildEngine(String engine) {
+    public CarBuilderImpl buildEngine(String engine) {
         car.setEngine(engine);
+        return this;
     }
 
-    @Override
-    public void buildSuspension(String suspension) {
+    public CarBuilderImpl buildSuspension(String suspension) {
         car.setSuspension(suspension);
+        return this;
     }
 
-    @Override
-    public void buildInterior(String interior) {
+    public CarBuilderImpl buildInterior(String interior) {
         car.setInterior(interior);
+        return this;
     }
 
-    @Override
     public Car getResult() {
         return car;
     }
