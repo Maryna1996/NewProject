@@ -2,9 +2,20 @@ package homework.App;
 
 import java.util.List;
 
-public interface DataStorage {
+interface DataStorage {
+    void saveData(String key, String value);
+
+    void saveData(String data);
+
+    String retrieveData(String key);
+    void deleteData(String key);
+
+    String retrieveData();
+
     void save(String key, Object data);
+
     Object get(String key);
+
     void delete(String key);
 
     void update(String key, Object newData);
@@ -16,5 +27,7 @@ public interface DataStorage {
     int size();
 
     void clear();
+
+    void resetDatabase();
 }
 

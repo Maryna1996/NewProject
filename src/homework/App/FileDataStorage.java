@@ -2,103 +2,146 @@ package homework.App;
 
 import java.io.*;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.List;
 
-public class FileDataStorage implements DataStorage {
-    private String storagePath = "data/";
+class FileDataStorage implements DataStorage {
+    private String dataFilePath;
+
+    public FileDataStorage(String dataFilePath) {
+        this.dataFilePath = dataFilePath;
+    }
 
     @Override
-    public void save(String key, Object data) {
-        String fileName = storagePath + key + ".txt";
+    public void saveData(String key, String value) {
         try {
-            new File(storagePath).mkdirs();
-            try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(new File(fileName)))) {
-                oos.writeObject(data);
+            List<String> lines = Files.readAllLines(Paths.get(dataFilePath));
+            List<String> updatedLines = new ArrayList<>();
+            boolean found = false;
+
+            for (String line : lines) {
+                if (line.startsWith(key + "=")) {
+                    updatedLines.add(key + "=" + value);
+                    found = true;
+                } else {
+                    updatedLines.add(line);
+                }
             }
+
+            if (!found) {
+                updatedLines.add(key + "=" + value);
+            }
+
+            Files.write(Paths.get(dataFilePath), updatedLines);
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
+    @Override
+    public void saveData(String data) {
+        try (FileWriter fileWriter = new FileWriter(dataFilePath, true);
+             BufferedWriter writer = new BufferedWriter(fileWriter)) {
+            writer.write(data);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
     @Override
-    public Object get(String key) {
-        String fileName = storagePath + key + ".txt";
-        File file = new File(fileName);
-
-        if (!file.exists()) {
-            System.err.println("File does not exist: " + fileName);
-            return null;
-        }
-
-        try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(fileName))) {
-            return ois.readObject();
-        } catch (IOException | ClassNotFoundException e) {
+    public String retrieveData(String key) {
+        try {
+            return Files.lines(Path.of(dataFilePath))
+                    .filter(line -> line.startsWith(key + "="))
+                    .map(line -> line.split("=")[1])
+                    .findFirst()
+                    .orElse(null);
+        } catch (IOException e) {
             e.printStackTrace();
             return null;
         }
+    }
+
+    @Override
+    public void deleteData(String key) {
+        try {
+            List<String> lines = Files.readAllLines(Path.of(dataFilePath));
+            List<String> updatedLines = new ArrayList<>();
+            for (String line : lines) {
+                if (!line.startsWith(key + "=")) {
+                    updatedLines.add(line);
+                }
+            }
+            Files.write(Path.of(dataFilePath), updatedLines);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public String retrieveData() {
+        try (BufferedReader reader = new BufferedReader(new FileReader(dataFilePath))) {
+            StringBuilder data = new StringBuilder();
+            String line;
+            while ((line = reader.readLine()) != null) {
+                data.append(line);
+            }
+            return data.toString();
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    @Override
+    public void save(String key, Object data) {
+        // Реалізація збереження об'єкта за ключем
+    }
+
+    @Override
+    public Object get(String key) {
+        // Реалізація отримання об'єкта за ключем
+        return null;
     }
 
     @Override
     public void delete(String key) {
-        String fileName = storagePath + key + ".txt";
-        try {
-            Files.delete(Paths.get(fileName));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        // Реалізація видалення об'єкта за ключем
     }
 
     @Override
     public void update(String key, Object newData) {
-        if (containsKey(key)) {
-            save(key, newData);
-        }
+        // Реалізація оновлення об'єкта за ключем
     }
 
     @Override
     public boolean containsKey(String key) {
-        String fileName = storagePath + key + ".txt";
-        return Files.exists(Paths.get(fileName));
+        // Реалізація перевірки наявності ключа
+        return false;
     }
 
     @Override
     public List<String> getAllKeys() {
-        try {
-            return Files.list(Paths.get(storagePath))
-                    .map(path -> path.getFileName().toString().replace(".txt", ""))
-                    .toList();
-        } catch (IOException e) {
-            e.printStackTrace();
-            return List.of();
-        }
+        // Реалізація отримання всіх ключів
+        return null;
     }
 
     @Override
     public int size() {
-        try {
-            return (int) Files.list(Paths.get(storagePath)).count();
-        } catch (IOException e) {
-            e.printStackTrace();
-            return 0;
-        }
+        // Реалізація отримання кількості елементів
+        return 0;
     }
 
     @Override
     public void clear() {
-        try {
-            Files.list(Paths.get(storagePath))
-                    .forEach(path -> {
-                        try {
-                            Files.delete(path);
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                        }
-                    });
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        // Реалізація очищення сховища даних
+    }
+
+    @Override
+    public void resetDatabase() {
+        // Реалізація скидання бази даних
     }
 }
-
