@@ -1,5 +1,4 @@
 package homework.App;
-
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -39,30 +38,30 @@ class FileDataStorageTest {
 
     @Test
     void testSaveAndRetrieveData() {
-        dataStorage.saveData("key1", "value1");
-        dataStorage.saveData("key2", "value2");
+        dataStorage.saveData("product1", "10.99 USD");
+        dataStorage.saveData("product2", "5.99 USD");
 
-        assertEquals("value1", dataStorage.retrieveData("key1"));
-        assertEquals("value2", dataStorage.retrieveData("key2"));
+        assertEquals("10.99 USD", dataStorage.retrieveData("product1"));
+        assertEquals("5.99 USD", dataStorage.retrieveData("product2"));
     }
 
     @Test
     void testRetrieveNonExistentData() {
-        assertNull(dataStorage.retrieveData("nonexistentKey"));
+        assertNull(dataStorage.retrieveData("nonexistentProduct"));
     }
 
     @Test
     void testDeleteData() {
-        dataStorage.saveData("key1", "value1");
-        dataStorage.deleteData("key1");
-        assertNull(dataStorage.retrieveData("key1"));
+        dataStorage.saveData("product3", "15.49 USD");
+        dataStorage.deleteData("product3");
+        assertNull(dataStorage.retrieveData("product3"));
     }
 
     @Test
     void testUpdateData() {
-        dataStorage.saveData("key1", "value1");
-        dataStorage.saveData("key1", "value2");
+        dataStorage.saveData("product4", "8.79 USD");
+        dataStorage.saveData("product4", "7.99 USD");
 
-        assertEquals("value2", dataStorage.retrieveData("key1"));
+        assertEquals("7.99 USD", dataStorage.retrieveData("product4"));
     }
 }

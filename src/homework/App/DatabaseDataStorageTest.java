@@ -17,36 +17,35 @@ class DatabaseDataStorageTest {
 
     @AfterEach
     void tearDown() {
-
         dataStorage.resetDatabase();
     }
 
     @Test
-    void testSaveAndRetrieveData() {
-        dataStorage.saveData("key1", "value1");
-        dataStorage.saveData("key2", "value2");
+    void testSaveAndRetrieveContact() {
+        dataStorage.saveData("John", "123-456-7890");
+        dataStorage.saveData("Alice", "987-654-3210");
 
-        assertEquals("value1", dataStorage.retrieveData("key1"));
-        assertEquals("value2", dataStorage.retrieveData("key2"));
+        assertEquals("123-456-7890", dataStorage.retrieveData("John"));
+        assertEquals("987-654-3210", dataStorage.retrieveData("Alice"));
     }
 
     @Test
-    void testRetrieveNonExistentData() {
-        assertNull(dataStorage.retrieveData("nonexistentKey"));
+    void testRetrieveNonExistentContact() {
+        assertNull(dataStorage.retrieveData("Bob"));
     }
 
     @Test
-    void testDeleteData() {
-        dataStorage.saveData("key1", "value1");
-        dataStorage.deleteData("key1");
-        assertNull(dataStorage.retrieveData("key1"));
+    void testDeleteContact() {
+        dataStorage.saveData("Eve", "555-123-4567");
+        dataStorage.deleteData("Eve");
+        assertNull(dataStorage.retrieveData("Eve"));
     }
 
     @Test
-    void testUpdateData() {
-        dataStorage.saveData("key1", "value1");
-        dataStorage.saveData("key1", "value2");
+    void testUpdateContact() {
+        dataStorage.saveData("Charlie", "111-222-3333");
+        dataStorage.saveData("Charlie", "444-555-6666");
 
-        assertEquals("value2", dataStorage.retrieveData("key1"));
+        assertEquals("444-555-6666", dataStorage.retrieveData("Charlie"));
     }
 }
