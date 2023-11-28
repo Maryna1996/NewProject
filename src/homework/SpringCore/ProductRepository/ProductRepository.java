@@ -1,4 +1,4 @@
-package org.example.SpringCore.ProductRepository;
+package homework.SpringCore.ProductRepository;
 
 import org.example.SpringCore.Product.Product;
 

@@ -1,4 +1,4 @@
-package org.example.SpringCore.AppConfig;
+package homework.SpringCore.AppConfig;
 
 
 import org.example.SpringCore.ShoppingCartApp.Cart;
