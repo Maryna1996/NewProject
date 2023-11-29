@@ -1,5 +1,6 @@
 package example.lesson23.factoryMethod;
 
+
 public class Factory {
     public DataStorage createStorage(StorageType type) {
         switch (type) {

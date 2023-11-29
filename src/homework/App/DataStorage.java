@@ -1,7 +1,8 @@
 package homework.App;
+
 import java.util.List;
 
-public interface DataStorage {
+interface DataStorage {
     void saveData(String key, String value);
 
     void saveData(String data);

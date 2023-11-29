@@ -1,6 +1,5 @@
 package example.lesson13;
 
-
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
@@ -85,9 +84,9 @@ public class Main {
     private Map<AutoType, Auto> getData(){
         Map<AutoType, Auto> map = new HashMap<>();
 
-        map.put(AutoType.Tesla, new Tesla());
-        map.put(AutoType.Matiz, new Matiz());
-        map.put(AutoType.Toyota, new Toyota());
+        map.put(AutoType.TESLA, new Tesla());
+        map.put(AutoType.MATIZ, new Matiz());
+        map.put(AutoType.TOYOTA, new Toyota());
 
         return map;
     }

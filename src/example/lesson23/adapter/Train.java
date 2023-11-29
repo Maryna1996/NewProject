@@ -1,5 +1,8 @@
 package example.lesson23.adapter;
 
-public abstract class Train {
-    public abstract void movingOnRails();
+public class Train {
+
+    public void movingOnRails() {
+        System.out.println("I'm train");
+    }
 }

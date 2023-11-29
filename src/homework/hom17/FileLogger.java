@@ -3,7 +3,7 @@ import java.io.*;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class FileLogger {
+public class FileLogger implements AutoCloseable {
     private final FileLoggerConfiguration configuration;
     private long currentLogSize;
     private PrintWriter writer;

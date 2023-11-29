@@ -5,35 +5,35 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-class MemoryDataStorage implements DataStorage {
+ class MemoryDataStorage implements DataStorage {
     private Map<String, Object> dataStore = new HashMap<>();
 
-    @Override
-    public void saveData(String key, String value) {
+     @Override
+     public void saveData(String key, String value) {
 
-    }
+     }
 
-    @Override
-    public void saveData(String data) {
+     @Override
+     public void saveData(String data) {
 
-    }
+     }
 
-    @Override
-    public String retrieveData(String key) {
-        return null;
-    }
+     @Override
+     public String retrieveData(String key) {
+         return null;
+     }
 
-    @Override
-    public void deleteData(String key) {
+     @Override
+     public void deleteData(String key) {
 
-    }
+     }
 
-    @Override
-    public String retrieveData() {
-        return null;
-    }
+     @Override
+     public String retrieveData() {
+         return null;
+     }
 
-    @Override
+     @Override
     public void save(String key, Object data) {
         dataStore.put(key, data);
     }
@@ -75,8 +75,8 @@ class MemoryDataStorage implements DataStorage {
         dataStore.clear();
     }
 
-    @Override
-    public void resetDatabase() {
+     @Override
+     public void resetDatabase() {
 
-    }
-}
+     }
+ }

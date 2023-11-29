@@ -1,8 +1,7 @@
 package example.lesson13;
-public class AutoType {
+public enum AutoType {
 
-    public static AutoType Tesla;
-    public static AutoType Matiz;
-    public static AutoType Toyota;
-
+    TESLA,
+    MATIZ,
+    TOYOTA
 }

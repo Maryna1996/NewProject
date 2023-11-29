@@ -1,10 +1,9 @@
 package homework.App;
-
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class InMemoryDataStorage implements DataStorage {
+class InMemoryDataStorage implements DataStorage {
     private final Map<String, String> data = new HashMap<>();
 
     @Override

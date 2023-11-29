@@ -1,6 +1,7 @@
 package example.lesson13;
 
 public class IncorrectKey {
+
     private int i;
 
     public IncorrectKey(int i) {

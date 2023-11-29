@@ -3,12 +3,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Train train = new Train() {
-            @Override
-            public void movingOnRails() {
-
-            }
-        };
+        Train train = new Train();
         Car car = new Car();
 
         CarAdapter carAdapter = new CarAdapter(car);

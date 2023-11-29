@@ -7,7 +7,7 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FileDataStorage implements DataStorage {
+class FileDataStorage implements DataStorage {
     private String dataFilePath;
 
     public FileDataStorage(String dataFilePath) {
@@ -98,42 +98,50 @@ public class FileDataStorage implements DataStorage {
 
     @Override
     public void save(String key, Object data) {
+        // Реалізація збереження об'єкта за ключем
     }
 
     @Override
     public Object get(String key) {
+        // Реалізація отримання об'єкта за ключем
         return null;
     }
 
     @Override
     public void delete(String key) {
+        // Реалізація видалення об'єкта за ключем
     }
 
     @Override
     public void update(String key, Object newData) {
-
+        // Реалізація оновлення об'єкта за ключем
     }
 
     @Override
     public boolean containsKey(String key) {
+        // Реалізація перевірки наявності ключа
         return false;
     }
 
     @Override
     public List<String> getAllKeys() {
+        // Реалізація отримання всіх ключів
         return null;
     }
 
     @Override
     public int size() {
+        // Реалізація отримання кількості елементів
         return 0;
     }
 
     @Override
     public void clear() {
+        // Реалізація очищення сховища даних
     }
 
     @Override
     public void resetDatabase() {
+        // Реалізація скидання бази даних
     }
 }

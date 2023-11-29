@@ -1,6 +1,5 @@
 package example.lesson23.proxy;
 
-
 import java.util.HashMap;
 import java.util.Map;
 

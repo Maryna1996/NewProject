@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class DatabaseDataStorage implements DataStorage {
+class DatabaseDataStorage implements DataStorage {
     private Map<String, String> database = new HashMap<>();
 
     @Override
@@ -14,6 +14,7 @@ public class DatabaseDataStorage implements DataStorage {
 
     @Override
     public void saveData(String data) {
+
     }
 
     @Override
@@ -33,6 +34,7 @@ public class DatabaseDataStorage implements DataStorage {
 
     @Override
     public void save(String key, Object data) {
+
     }
 
     @Override
@@ -42,34 +44,36 @@ public class DatabaseDataStorage implements DataStorage {
 
     @Override
     public void delete(String key) {
+
     }
 
     @Override
     public void update(String key, Object newData) {
+
     }
 
     @Override
     public boolean containsKey(String key) {
-        return database.containsKey(key);
+        return false;
     }
 
     @Override
     public List<String> getAllKeys() {
-        return List.copyOf(database.keySet());
+        return null;
     }
 
     @Override
     public int size() {
-        return database.size();
+        return 0;
     }
 
     @Override
     public void clear() {
-        database.clear();
+
     }
 
     @Override
     public void resetDatabase() {
-        database.clear();
+
     }
 }

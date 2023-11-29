@@ -1,6 +1,5 @@
 package example.lesson18;
 
-
 @Service(name = "AnnotationLazyService", lazyLoad = true)
 public class LazyService {
 
