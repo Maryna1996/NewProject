@@ -1,5 +1,7 @@
 package homework.hom2;
 
+import homework.hom3.Participant;
+
 class Robot implements Participant {
     String name;
 

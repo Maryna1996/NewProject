@@ -1,6 +1,5 @@
 package example.lesson19;
 
-
 public class Runner {
 
 

@@ -1,6 +1,6 @@
 package homework.hom3;
 
-interface Participant {
+public interface Participant {
     void run();
     void jump();
 }
