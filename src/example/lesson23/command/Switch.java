@@ -1,4 +1,4 @@
-package example.lesson23.command;
+package example.lesson23.Command;
 
 import java.util.HashMap;
 import java.util.Map;
