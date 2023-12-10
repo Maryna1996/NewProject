@@ -30,4 +30,3 @@ public class Main {
         MAIN_LOGGER.info("Coffee Order Application completed");
     }
 }
-
