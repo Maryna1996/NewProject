@@ -1,4 +1,4 @@
-package homework.Logger.coffee;
+package homework.Loggers;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
